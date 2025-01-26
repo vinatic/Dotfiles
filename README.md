@@ -8,7 +8,7 @@
 > [!CAUTION]
 > This setup is specific for [Hyprland](https://github.com/hyprwm/Hyprland). Dont install it if you don't know what you're doing.
 >
-> [!EXTRA CAUTION]
+> [!CAUTION]
 > This is not the original repo!
 
 ## 📸 Check it out!
@@ -17,6 +17,7 @@
 ![](screenshots/3.png)
 ![](screenshots/4.png)
 ![](screenshots/5.png)
+![](screenshots/6.png)
 
 [👉 Reddit Post](https://www.reddit.com/r/unixporn/comments/1hw6ur3/hyprland_are_we_fabricating_yet_wip/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
@@ -32,6 +33,9 @@ cd Dotfiles
 bash install.sh
 ```
 This will execute the installation wizard.
+
+> [!CAUTION]
+> Does not conaint all packages needed
 
 > [!NOTE]
 > [This packages](https://github.com/Axenide/Dotfiles/blob/main/pacman/packages.txt) are needed to fully use the config and will be installed if you choose the option in script:
@@ -136,7 +140,7 @@ If you just want good [Pywalfox](https://github.com/Frewacom/pywalfox/) support,
 <samp>
   <sup>
     <b>
-    <i>Please consider giving me a tip. :)</i>
+    <i>Please consider giving Axenide a tip. :)</i>
     <br>
     <a href="https://cafecito.app/axenide">☕ Cafecito</a> |
     <a href="https://ko-fi.com/axenide">❤️ Ko-Fi</a> |
