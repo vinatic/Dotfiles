@@ -7,6 +7,9 @@
 
 > [!CAUTION]
 > This setup is specific for [Hyprland](https://github.com/hyprwm/Hyprland). Dont install it if you don't know what you're doing.
+>
+> [!EXTRA CAUTION]
+> This is not the original repo!
 
 ## 📸 Check it out!
 ![](screenshots/1.png)
@@ -18,7 +21,7 @@
 [👉 Reddit Post](https://www.reddit.com/r/unixporn/comments/1hw6ur3/hyprland_are_we_fabricating_yet_wip/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 > [!WARNING]
-> The main branch is experimental, as I'm always making changes.
+> The main branch is experimental, as Axenide is always making changes.
 >
 > Please refer to the [stable branch](https://github.com/Axenide/Dotfiles/tree/stable) if you want to use it.
 
@@ -30,7 +33,7 @@ bash install.sh
 ```
 This will execute the installation wizard.
 
-> [!NOTE]
+> [!NOTE] this will not work
 > [This packages](https://github.com/Axenide/Dotfiles/blob/main/pacman/packages.txt) are needed to fully use the config and will be installed if you choose the option in script:
 
 Also it will install `yay`, but you can skip the installation and use any AUR helper you want and install them manually. 
@@ -46,20 +49,20 @@ Also it will install `yay`, but you can skip the installation and use any AUR he
 | <kbd>SUPER + ,</kbd>                                  | Wallpaper Selector              |
 | <kbd>SUPER + SHIFT + B</kbd>                          | Reload bar CSS              |
 | <kbd>SUPER + ALT + B</kbd>                            | Restart bar              |
-| <kbd>SUPER + CTRL + B</kbd>                            | Toggle bar              |
+| <kbd>SUPER + CTRL + B</kbd>                           | Toggle bar              |
 
 ### Hyprland
 
 | Keys                                         | Action                          |
 |---------------------------------------------:|:--------------------------------|
-| <kbd>SUPER + C</kbd>                                  | Close window                    |
-| <kbd>SUPER + SHIFT + Esc</kbd>                     | Exit Hyprland                   |
-| <kbd>SUPER + Space</kbd>                              | Toggle tiled/floating           |
+| <kbd>SUPER + Q</kbd>                                  | Close window                    |
+| <kbd>SUPER + SHIFT + Esc</kbd>                        | Exit Hyprland                   |
+| <kbd>SUPER + R</kbd>                                  | Toggle tiled/floating           |
 | <kbd>SUPER + P</kbd>                                  | Toggle pseudo-tiling            |
-| <kbd>SUPER + SHIFT + D</kbd>                                  | Toggle split                    |
+| <kbd>SUPER + SHIFT + D</kbd>                          | Toggle split                    |
 | <kbd>SUPER + F</kbd>                                  | Fullscreen                      |
 | <kbd>SUPER + SHIFT + F</kbd>                          | Fake Fullscreen                 |
-| <kbd>SUPER + CTRL + F</kbd>                            | Maximize                        |
+| <kbd>SUPER + CTRL + F</kbd>                           | Maximize                        |
 | <kbd>SUPER + Y</kbd>                                  | Pin window                      |
 | <kbd>SUPER + G</kbd>                                  | Center window                   |
 | <kbd>SUPER + Arrows or H,J,K,L</kbd>                  | Move window focus               |
@@ -79,9 +82,9 @@ Also it will install `yay`, but you can skip the installation and use any AUR he
 
 | Keys                                         | Action                          |
 |---------------------------------------------:|:--------------------------------|
-| <kbd>SUPER + RETURN</kbd>                             | Open Kitty terminal             |
-| <kbd>SUPER + SHIFT + RETURN</kbd>                     | Open floating Kitty terminal    |
-| <kbd>SUPER + ALT + RETURN</kbd>                       | Open Kitty with slurp           |
+| <kbd>SUPER + T</kbd>                                  | Open Kitty terminal             |
+| <kbd>SUPER + SHIFT + T</kbd>                          | Open floating Kitty terminal    |
+| <kbd>SUPER + ALT + T</kbd>                            | Open Kitty with slurp           |
 | <kbd>SUPER + E</kbd>                                  | File explorer                   |
 | <kbd>SUPER + SHIFT + E</kbd>                          | Floating file explorer          |
 | <kbd>SUPER + W</kbd>                                  | Zen Browser                         |
@@ -118,10 +121,10 @@ Also it will install `yay`, but you can skip the installation and use any AUR he
 ## 🌐 Browser
 I'm currently using [Zen Browser](https://zen-browser.app/) with some custom tweaks. To use my config you need to create a new profile and click on "Select folder". The folder will be located at `~/.zen/Zen/`.
 
-If you just want good [Pywalfox](https://github.com/Frewacom/pywalfox/) support, install the [PywalZen](https://zen-browser.app/themes/d2953516-d239-4ef8-aac5-b238e3dc0360) theme I made!
+If you just want good [Pywalfox](https://github.com/Frewacom/pywalfox/) support, install the [PywalZen](https://zen-browser.app/themes/d2953516-d239-4ef8-aac5-b238e3dc0360) theme Axenide made!
 
 > [!NOTE]
-> I also modified some shortcuts to make them similar to the ones I use in Hyprland.
+> Axenide also modified some shortcuts to make them similar to the ones Axenide use in Hyprland.
 
 | Keys                | Action                  |
 |--------------------:|:------------------------|
