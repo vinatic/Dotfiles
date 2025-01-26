@@ -33,7 +33,7 @@ bash install.sh
 ```
 This will execute the installation wizard.
 
-> [!NOTE] this will not work
+> [!NOTE]
 > [This packages](https://github.com/Axenide/Dotfiles/blob/main/pacman/packages.txt) are needed to fully use the config and will be installed if you choose the option in script:
 
 Also it will install `yay`, but you can skip the installation and use any AUR helper you want and install them manually. 
